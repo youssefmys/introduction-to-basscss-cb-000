@@ -1,0 +1,35 @@
+{
+  "name": "introduction-to-basscss",
+  "version": "0.1.0",
+  "description": "Intro to using Basscss for style and layout on learn",
+  "engines": {
+    "node": "6.x",
+    "npm": "3.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/learn-co-curriculum/introduction-to-basscss.git"
+  },
+  "keywords": [
+    "javascript",
+    "flatiron",
+    "learn"
+  ],
+  "author": "pletcher",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/learn-co-curriculum/introduction-to-basscss/issues"
+  },
+  "homepage": "https://github.com/learn-co-curriculum/introduction-to-basscss#readme",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "jsdom": "^9.4.1",
+    "mocha": "^2.5.3",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^0.9.0"
+  }
+}
